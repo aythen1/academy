@@ -15,6 +15,8 @@ const Lms = () => {
                 <Editor setTest={setTest} />
             </div>
             <div style={{ width: '50%' }}>
+                <div className={styles["editor-container"]}>
+
                 <iframe
                     className={styles["editor-iframe"]}
                     id="iframe"
@@ -23,6 +25,7 @@ const Lms = () => {
                     frameBorder="0"
                     allowFullScreen
                 />
+                </div>
             </div>
         </div>
     )

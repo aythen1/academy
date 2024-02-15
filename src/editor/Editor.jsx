@@ -198,7 +198,7 @@ const MonacoEditor = ({ setTest }) => {
                 </div>
             </div>
             <Editor
-                height="100vh"
+                height="95vh"
                 language={editorLanguage}
                 value={code}
                 onChange={handleEditorChange}
